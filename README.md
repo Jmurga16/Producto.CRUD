@@ -1,5 +1,4 @@
 # Producto.CRUD
-# Inventario.Back
 
 Pasos para compilar:
 1. Clonar el repositorio en Visual Studio.
