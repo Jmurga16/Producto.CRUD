@@ -33,6 +33,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnection", "DatabaseConnection\DatabaseConnection.csproj", "{0C32D06D-214B-45E9-8BDC-F5BC956467AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{CA3A665E-7AD5-4611-A8E7-6C86800B4EA9}"
+	ProjectSection(SolutionItems) = preProject
+		..\CreacionTablas.sql = ..\CreacionTablas.sql
+		..\USP_CREATE_PRODUCTO.sql = ..\USP_CREATE_PRODUCTO.sql
+		..\USP_DELETE_PRODUCTO.sql = ..\USP_DELETE_PRODUCTO.sql
+		..\USP_GET_PRODUCTOS.sql = ..\USP_GET_PRODUCTOS.sql
+		..\USP_UPDATE_PRODUCTO.sql = ..\USP_UPDATE_PRODUCTO.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
